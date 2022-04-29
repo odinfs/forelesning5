@@ -1,1 +1,2 @@
- POST {{server}}/login
+POST {{server}}/login
+
