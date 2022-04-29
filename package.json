@@ -4,6 +4,9 @@
   "description": "Heroku",
   "main": "index.js",
   "scripts": {
+    "dev": "currently npm:dev:server npm:dev:client",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
     "start": "cd server && npm start",
     "build": "npm run build:client && npm run build:server",
     "build-client": "cd client && npm install --include=dev && npm run build",
